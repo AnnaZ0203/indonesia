@@ -1,0 +1,30 @@
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+ul,
+li,
+form,
+input,
+button,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1314px;
+  padding: 0 15px;
+  margin: 0 auto;
+  outline: solid black;
+}
