@@ -1,0 +1,85 @@
+.explore{
+background-image: url(../../img/explorebackground.png);
+background-color: grey;
+  background-repeat: no-repeat;
+background-position: center;
+background-size: 2271px;
+
+
+
+
+}
+
+.explore-title{
+  padding-top: 127px;
+  font-family: "DM Sans",sans-serif;
+font-weight: 700;
+font-size: 50px;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+margin-bottom: 44px;
+
+}
+.explore-list {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1134px;
+}
+
+.explore-wrap{
+  background-color: #010a20e1;
+
+}
+.explore-head {
+  font-family: "DM Sans",sans-serif;
+font-weight: 700;
+font-size: 60px;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+color: #FFFFFF;
+
+}
+.explore-text {
+  font-family: "DM Sans",sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+letter-spacing: 0.5px;
+text-align: center;
+color:  #E0E0E0;
+margin-bottom: 40px;
+
+}
+
+.explore-list-two {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 224px;
+}
+.explore-item-two {
+}
+.explore-num-two {
+  font-family:"DM Sans",sans-serif;
+font-weight: 700;
+font-size: 42.14px;
+line-height: 49.16px;
+letter-spacing: 0.39px;
+color:  #DD2242;
+text-align: center;
+
+
+}
+.explore-txt-two {
+  font-family: "DM Sans",sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+letter-spacing: 0.5px;
+color: #E0E0E0;
+text-align: center;
+}

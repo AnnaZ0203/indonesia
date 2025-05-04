@@ -22,6 +22,223 @@ p {
   padding: 0;
 }
 
+.hero {
+  background-image: url(../../img/hero-backgroung.png);
+  background-repeat: no-repeat;
+  background-color: #010A20;
+}
+
+.hero-list {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 80px;
+  padding-top: 150px;
+}
+
+.hero-title {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 50px;
+  letter-spacing: 0px;
+  color: white;
+  margin-bottom: 4px;
+}
+
+.hero-text {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 1%;
+  color: #E0E0E0;
+  margin-bottom: 32px;
+}
+
+.hero-btn {
+  display: inline-block;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #DD2242;
+  padding: 16px 40px;
+  border-radius: 32px;
+  border: none;
+}
+
+.hero-list-two {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+  padding-bottom: 300px;
+}
+
+.hero-title-two {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 50px;
+  letter-spacing: 0px;
+  color: white;
+}
+
+.hero-text-two {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 1%;
+  color: #E0E0E0;
+  padding-bottom: 21px;
+}
+
+.hero-btn-two {
+  display: inline-block;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #DD2242;
+  padding: 16px 40px;
+  border-radius: 32px;
+  border: none;
+}
+
+.explore {
+  background-image: url(../../img/explorebackground.png);
+  background-color: grey;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 2271px;
+}
+
+.explore-title {
+  padding-top: 127px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom: 44px;
+}
+
+.explore-list {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1134px;
+}
+
+.explore-wrap {
+  background-color: rgba(1, 10, 32, 0.8823529412);
+}
+
+.explore-head {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  color: #FFFFFF;
+}
+
+.explore-text {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #E0E0E0;
+  margin-bottom: 40px;
+}
+
+.explore-list-two {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 224px;
+}
+
+.explore-num-two {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 42.14px;
+  line-height: 49.16px;
+  letter-spacing: 0.39px;
+  color: #DD2242;
+  text-align: center;
+}
+
+.explore-txt-two {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  color: #E0E0E0;
+  text-align: center;
+}
+
+.hills {
+  background-image: url(../../img/hillsleft.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 1000px;
+  display: flex;
+  align-items: center;
+}
+
+.hills-title {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 50px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #000000;
+  padding-top: 248px;
+}
+
+.hills-text {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #6F7787;
+  margin-top: 32px;
+  margin-bottom: 36px;
+}
+
+.hills-btn {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #DD2242;
+  padding: 16px 40px;
+  border-radius: 32px;
+  border: none;
+  position: relative;
+  left: 550px;
+  margin-bottom: 256px;
+}
+
 .container {
   width: 1314px;
   padding: 0 15px;
