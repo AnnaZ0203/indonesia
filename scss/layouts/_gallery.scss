@@ -1,0 +1,62 @@
+
+.gallery{
+    padding-bottom: 299px;
+}
+
+.parent {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+padding-left: 60px;
+
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 2 / 1 / 3 / 2; }
+.div3 { grid-area: 1 / 2 / 2 / 3; }
+.div4 { grid-area: 2 / 2 / 3 / 3; }
+.div5 { grid-area: 1 / 3 / 2 / 4; }
+.div6 { grid-area: 2 / 3 / 3 / 4; }
+
+.parent-wrap{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.beach-img{
+transform:translateY(-200px);
+}
+.smoke-img{
+transform:translateY(-350px);
+}
+.mountain-img{
+  transform:translateY(22px);
+}
+.firstphotoeswrap{
+    margin-left: 20px;
+}
+
+
+.gallery-title {
+    font-family: "DM Sans",sans-serif;
+font-weight: 700;
+font-size: 60px;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+color:  #010A20;
+padding-top: 177px;
+margin-bottom: 41px;
+
+
+}
+.gallery-text {
+    font-family: "DM Sans"sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+letter-spacing: 1%;
+text-align: center;
+margin-bottom: 71px;
+color:  #6F7787;
+
+}

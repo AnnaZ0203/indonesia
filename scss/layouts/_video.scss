@@ -1,0 +1,85 @@
+.video {
+background-image: url(../../img/videobackgroun.png);
+background-position: center;
+background-repeat: no-repeat;
+background-color: #010a20f4;
+}
+
+.video-title {
+    padding-top: 141px;
+    font-family: "DM Sans",sans-serif;
+font-weight: 700;
+font-size: 42px;
+line-height: 50px;
+letter-spacing: 0px;
+text-align: center;
+color: white;
+margin-bottom: 67px;
+}
+.video-img {
+    margin-left: 120px;
+    margin-bottom: 125px;
+
+}
+.video-list {
+    display: flex;
+    flex-direction: row;
+
+}
+.video-item {
+    flex-direction: row;
+    margin-right: 41px;
+}
+
+.item-title {
+    font-family: "DM Sans",sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 150%;
+letter-spacing: 0%;
+color: #FFFFFF;
+margin-bottom: 15px;
+}
+.item-text {
+    font-family: "DM Sans",sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+letter-spacing: 0.5px;
+color: #FFFFFF;
+
+}
+
+
+.video-list-two {
+    display: flex;
+   
+
+}
+.video-item-two {
+ margin-right: 41px;
+}
+
+.item-title-two {
+    font-family: "DM Sans",sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 150%;
+letter-spacing: 0%;
+color: #FFFFFF;
+margin-bottom: 15px;
+}
+.item-text-two {
+    font-family: "DM Sans",sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+letter-spacing: 0.5px;
+color: #FFFFFF;
+
+}
+.video-wrap{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 255px;
+}
