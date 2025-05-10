@@ -22,6 +22,116 @@ p {
   padding: 0;
 }
 
+.header {
+  background-color: grey;
+  margin-bottom: 195px;
+}
+
+.header-logo {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 23.96px;
+  line-height: 81%;
+  letter-spacing: 0.32px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item:first-child {
+  margin-right: 7px;
+}
+
+.nav-item {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: white;
+  margin-right: 64px;
+}
+
+.nav-list-svg {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  right: 90px;
+}
+
+.nav-item-svg {
+  margin-right: 40px;
+  position: relative;
+  bottom: 35px;
+}
+
+.indonesia {
+  background-color: grey;
+}
+
+.indonesia-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 120px;
+  line-height: 130px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  margin-bottom: 21px;
+}
+
+.indonesia-btn {
+  margin-bottom: 241px;
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  padding: 26px 64px;
+  background-color: #DD2242;
+  border-radius: 211px;
+  border: none;
+}
+
+.indonesia-list {
+  background-color: rgba(0, 0, 0, 0.5843137255);
+}
+
+.indonesia-itm-title {
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: #DD2242;
+}
+
+.indonesia-itm-undrtitle {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 26.41px;
+  line-height: 41.08px;
+  letter-spacing: 0px;
+  color: white;
+}
+
+.indonesia-itm-txt {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  color: #939393;
+}
+
 .hero {
   background-image: url(../../img/hero-backgroung.png);
   background-repeat: no-repeat;

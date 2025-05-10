@@ -1,15 +1,48 @@
 .header {
+    background-color: grey;
+    margin-bottom: 195px;
 }
 .header-logo {
+    font-family: "Roboto",sans-serif;
+font-weight: 900;
+font-size: 23.96px;
+line-height: 81%;
+letter-spacing: 0.32px;
+text-transform: uppercase;
+color: white;
+
 }
 
 .nav-list {
+    display: flex;
+    align-items: center;
+}
+.nav-item:first-child{
+    margin-right: 7px;
 }
 .nav-item {
+    font-family: "DM Sans",sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: uppercase;
+color: white;
+margin-right: 64px;
+
 }
 .nav-list-svg {
+    display: flex;
+   align-items: center;
+   justify-content:flex-end;
+   position: relative;
+   right: 90px;
+
 }
 .nav-item-svg {
+margin-right: 40px;
+position: relative;
+bottom: 35px;
 }
 .header-lypa {
 }
