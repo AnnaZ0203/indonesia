@@ -1,5 +1,6 @@
 .indonesia {
-    background-color: grey;
+    background-image: url(../../img/indonesiabackground.png);
+    padding-top: 268px;
 }
 
 .indonesia-title {
@@ -10,6 +11,7 @@ line-height: 130px;
 letter-spacing: 0%;
 text-transform: uppercase;
 margin-bottom: 21px;
+color: white;
 
 }
 .indonesia-btn {
@@ -25,14 +27,20 @@ padding: 26px 64px;
 background-color: #DD2242;
 border-radius: 211px;
 border: none;
+color: white;
 
 
 }
 .indonesia-list {
-    background-color: #00000095;
-;
+    background-color: #000000b8;
+    display: flex;
+    justify-content: center;
+    
 }
 .indonesia-item {
+    margin-right: 190px;
+    margin-bottom: 49px;
+
 }
 .indonesia-itm-title {
     font-family: "Roboto";
@@ -42,6 +50,8 @@ line-height: 100%;
 letter-spacing: 0%;
 text-transform: uppercase;
 color: #DD2242;
+margin-bottom: 14px;
+margin-top: 41px;
 
 
 }

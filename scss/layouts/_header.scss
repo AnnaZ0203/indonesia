@@ -1,6 +1,8 @@
 .header {
-    background-color: grey;
-    margin-bottom: 195px;
+position: absolute;
+top: 28px;
+left: 50%;
+transform: translateX(-50%);
 }
 .header-logo {
     font-family: "Roboto",sans-serif;
