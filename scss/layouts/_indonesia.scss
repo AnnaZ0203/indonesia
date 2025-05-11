@@ -1,6 +1,11 @@
 .indonesia {
-    background-image: url(../../img/indonesiabackground.png);
+    background-image:
+    linear-gradient(215.79deg, rgba(0, 0, 0, 0.31) 29.66%, rgba(0, 0, 0, 0.29) 84.2%) ,
+     url(../../img/indonesiabackground.png);
     padding-top: 268px;
+    background-size: 111vw;
+    background-repeat: no-repeat;
+
 }
 
 .indonesia-title {
@@ -32,7 +37,7 @@ color: white;
 
 }
 .indonesia-list {
-    background-color: #000000b8;
+    background-color: #0000009d;
     display: flex;
     justify-content: center;
     
