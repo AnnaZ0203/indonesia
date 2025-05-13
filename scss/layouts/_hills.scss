@@ -1,15 +1,32 @@
 .hills{
-    background-image: url(../../img/hillsleft.png);
-    background-position: left;
+    background-image: url(../../img/hillsbackground.png);
+    
     background-repeat: no-repeat;
-    background-size: 1000px;
-    display: flex;
-    align-items: center;
+    background-size: 1300px;
+  
  
+     @media screen and (min-width: 1200px){
+      background-image: url(../../img/hillsbackground.png);
+    
+    background-repeat: no-repeat;
+    background-size: 1900px;
+  background-position: center;
+   }
 }
 
 
 .hills-title {
+ 
+    font-family: "DM Sans";
+font-weight: 700;
+font-size: 40px;
+line-height: 46px;
+letter-spacing: 0%;
+text-align: center;
+color: #000000;
+padding-top: 171px;
+margin-bottom: 36px;
+   @media screen and (min-width: 1200px){
     font-family: "DM Sans",sans-serif;
 font-weight: 700;
 font-size: 42px;
@@ -18,9 +35,22 @@ letter-spacing: 0px;
 text-align: center;
 color: #000000;
 padding-top: 248px;
+   }
 }
 .hills-text {
-    font-family: "DM Sans",sans-serif;
+font-family: "DM Sans";
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.5px;
+text-align: center;
+color:#6F7787;
+margin-bottom: 41px;
+
+
+
+@media screen and (min-width: 1200px){
+      font-family: "DM Sans",sans-serif;
 font-weight: 400;
 font-size: 18px;
 line-height: 28px;
@@ -29,8 +59,27 @@ text-align: center;
 color: #6F7787;
 margin-top: 32px;
 margin-bottom: 36px;
+   }
+
 }
 .hills-btn {
+    
+font-family: "DM Sans",sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+color: #FFFFFF;
+background-color: #DD2242;
+padding:23px 108px;
+border-radius: 32px;
+border: none;
+margin-left: 70px;
+margin-bottom: 256px;
+
+
+  @media screen and (min-width: 1200px){
     
 font-family: "DM Sans",sans-serif;
 font-weight: 700;
@@ -44,7 +93,8 @@ padding:16px 40px;
 border-radius: 32px;
 border: none;
 position: relative;
-left: 550px;
+left: 520px;
 
 margin-bottom: 256px;
+   }
 }

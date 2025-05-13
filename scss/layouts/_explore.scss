@@ -6,8 +6,28 @@ background-size: 2271px;
 
 }
 
+
+
+.explore-img{
+     @media screen and (min-width: 1200px){
+ display: none;
+   }
+  display: block;
+  width: 100%;
+}
+
 .explore-title{
-  padding-top: 127px;
+font-family: "DM Sans",sans-serif;
+font-weight: 700;
+font-size: 40px;
+line-height: 46px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+margin-bottom: 23px;
+padding-top: 20px;
+   @media screen and (min-width: 1200px){
+        padding-top: 127px;
   font-family: "DM Sans",sans-serif;
 font-weight: 700;
 font-size: 50px;
@@ -15,7 +35,9 @@ line-height: 150%;
 letter-spacing: 0%;
 text-align: center;
 vertical-align: middle;
-margin-bottom: 44px;
+margin-bottom: 44px; 
+   }
+
 
 }
 .explore-list {
@@ -52,7 +74,14 @@ color:  #E0E0E0;
 margin-bottom: 40px;
 
 }
-
+.explore-item{
+ @media screen and (min-width: 480px){
+ display: none;
+   }
+    @media screen and (min-width: 1200px){
+ display: flex;
+   }
+}
 .explore-list-two {
   display: flex;
   align-items: center;

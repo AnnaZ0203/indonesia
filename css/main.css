@@ -156,19 +156,37 @@ p, body {
 
 .hero-list {
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 80px;
-  padding-top: 150px;
+  flex-direction: column;
+}
+@media screen and (min-width: 1200px) {
+  .hero-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 80px;
+    padding-top: 150px;
+  }
+}
+
+.hero-item {
+  margin-bottom: 33.79px;
 }
 
 .hero-title {
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
-  font-size: 42px;
-  line-height: 50px;
+  font-size: 40px;
+  line-height: 46px;
   letter-spacing: 0px;
   color: white;
   margin-bottom: 4px;
+}
+@media screen and (min-width: 1200px) {
+  .hero-title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+  }
 }
 
 .hero-text {
@@ -191,25 +209,51 @@ p, body {
   text-align: center;
   color: #FFFFFF;
   background-color: #DD2242;
-  padding: 16px 40px;
+  padding: 22px 108px;
   border-radius: 32px;
   border: none;
+}
+@media screen and (min-width: 1200px) {
+  .hero-btn {
+    padding: 16px 40px;
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .hero-list-two {
   display: flex;
   justify-content: space-evenly;
-  flex-direction: row-reverse;
-  padding-bottom: 300px;
+  flex-direction: column;
+}
+@media screen and (min-width: 1200px) {
+  .hero-list-two {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    padding-bottom: 300px;
+  }
+}
+
+.hero-item-two {
+  margin-bottom: 33.79px;
+  margin-top: 40px;
 }
 
 .hero-title-two {
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
-  font-size: 42px;
-  line-height: 50px;
+  font-size: 40px;
+  line-height: 46px;
   letter-spacing: 0px;
   color: white;
+}
+@media screen and (min-width: 1200px) {
+  .hero-title-two {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+  }
 }
 
 .hero-text-two {
@@ -232,9 +276,43 @@ p, body {
   text-align: center;
   color: #FFFFFF;
   background-color: #DD2242;
-  padding: 16px 40px;
+  padding: 22px 108px;
   border-radius: 32px;
   border: none;
+}
+@media screen and (min-width: 1200px) {
+  .hero-btn-two {
+    padding: 16px 40px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.hero-beaches {
+  width: 314px;
+  height: 232px;
+  display: block;
+  width: 100%;
+}
+@media screen and (min-width: 1200px) {
+  .hero-beaches {
+    width: 630.343px;
+    height: 460px;
+  }
+}
+
+.hero-walkways {
+  margin-top: 40px;
+  width: 314px;
+  height: 232px;
+  display: block;
+  width: 100%;
+}
+@media screen and (min-width: 1200px) {
+  .hero-walkways {
+    width: 630.343px;
+    height: 460px;
+  }
 }
 
 .explore {
@@ -244,16 +322,39 @@ p, body {
   background-size: 2271px;
 }
 
+.explore-img {
+  display: block;
+  width: 100%;
+}
+@media screen and (min-width: 1200px) {
+  .explore-img {
+    display: none;
+  }
+}
+
 .explore-title {
-  padding-top: 127px;
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
-  font-size: 50px;
-  line-height: 150%;
+  font-size: 40px;
+  line-height: 46px;
   letter-spacing: 0%;
   text-align: center;
   vertical-align: middle;
-  margin-bottom: 44px;
+  margin-bottom: 23px;
+  padding-top: 20px;
+}
+@media screen and (min-width: 1200px) {
+  .explore-title {
+    padding-top: 127px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 44px;
+  }
 }
 
 .explore-list {
@@ -289,6 +390,17 @@ p, body {
   margin-bottom: 40px;
 }
 
+@media screen and (min-width: 480px) {
+  .explore-item {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .explore-item {
+    display: flex;
+  }
+}
+
 .explore-list-two {
   display: flex;
   align-items: center;
@@ -317,35 +429,65 @@ p, body {
 }
 
 .hills {
-  background-image: url(../../img/hillsleft.png);
-  background-position: left;
+  background-image: url(../../img/hillsbackground.png);
   background-repeat: no-repeat;
-  background-size: 1000px;
-  display: flex;
-  align-items: center;
+  background-size: 1300px;
+}
+@media screen and (min-width: 1200px) {
+  .hills {
+    background-image: url(../../img/hillsbackground.png);
+    background-repeat: no-repeat;
+    background-size: 1900px;
+    background-position: center;
+  }
 }
 
 .hills-title {
-  font-family: "DM Sans", sans-serif;
+  font-family: "DM Sans";
   font-weight: 700;
-  font-size: 42px;
-  line-height: 50px;
-  letter-spacing: 0px;
+  font-size: 40px;
+  line-height: 46px;
+  letter-spacing: 0%;
   text-align: center;
   color: #000000;
-  padding-top: 248px;
+  padding-top: 171px;
+  margin-bottom: 36px;
+}
+@media screen and (min-width: 1200px) {
+  .hills-title {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #000000;
+    padding-top: 248px;
+  }
 }
 
 .hills-text {
-  font-family: "DM Sans", sans-serif;
+  font-family: "DM Sans";
   font-weight: 400;
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 16px;
+  line-height: 24px;
   letter-spacing: 0.5px;
   text-align: center;
   color: #6F7787;
-  margin-top: 32px;
-  margin-bottom: 36px;
+  margin-bottom: 41px;
+}
+@media screen and (min-width: 1200px) {
+  .hills-text {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #6F7787;
+    margin-top: 32px;
+    margin-bottom: 36px;
+  }
 }
 
 .hills-btn {
@@ -357,12 +499,29 @@ p, body {
   text-align: center;
   color: #FFFFFF;
   background-color: #DD2242;
-  padding: 16px 40px;
+  padding: 23px 108px;
   border-radius: 32px;
   border: none;
-  position: relative;
-  left: 550px;
+  margin-left: 70px;
   margin-bottom: 256px;
+}
+@media screen and (min-width: 1200px) {
+  .hills-btn {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #DD2242;
+    padding: 16px 40px;
+    border-radius: 32px;
+    border: none;
+    position: relative;
+    left: 520px;
+    margin-bottom: 256px;
+  }
 }
 
 .video {
@@ -665,4 +824,14 @@ p, body {
   padding: 0 15px;
   margin: 0 auto;
   outline: solid black;
+}
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 480px;
+  }
+}
+@media screen and (min-width: 1314px) {
+  .container {
+    max-width: 1314px;
+  }
 }

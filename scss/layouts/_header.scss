@@ -18,6 +18,9 @@ color: white;
 .nav-list {
     display: flex;
     align-items: center;
+      
+
+ 
 }
 .nav-item:first-child{
     margin-right: 7px;
@@ -39,12 +42,17 @@ margin-right: 64px;
    justify-content:flex-end;
    position: relative;
    right: 90px;
+ 
+ 
 
 }
 .nav-item-svg {
 margin-right: 40px;
 position: relative;
 bottom: 35px;
+}
+.nav-item-svg:last-child{
+  
 }
 .header-lypa {
 }
