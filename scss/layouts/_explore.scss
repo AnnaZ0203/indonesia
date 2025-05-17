@@ -9,11 +9,12 @@ background-size: 2271px;
 
 
 .explore-img{
+   display: block;
+  width: 100%;
      @media screen and (min-width: 1200px){
  display: none;
    }
-  display: block;
-  width: 100%;
+ 
 }
 
 .explore-title{
@@ -41,9 +42,13 @@ margin-bottom: 44px;
 
 }
 .explore-list {
-  display: flex;
+  display: none;
+margin: 1134px;
+     @media screen and (min-width: 1200px){
+      display: flex;
   justify-content: space-between;
   padding-bottom: 1134px;
+   }
 }
 
 .explore-wrap{

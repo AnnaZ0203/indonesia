@@ -22,6 +22,12 @@ p, body {
   padding: 0;
 }
 
+img {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+
 .header {
   position: absolute;
   top: 28px;
@@ -358,9 +364,15 @@ p, body {
 }
 
 .explore-list {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 1134px;
+  display: none;
+  margin: 1134px;
+}
+@media screen and (min-width: 1200px) {
+  .explore-list {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1134px;
+  }
 }
 
 .explore-wrap {
@@ -820,12 +832,12 @@ p, body {
 }
 
 .container {
-  width: 1314px;
+  width: 100%;
   padding: 0 15px;
   margin: 0 auto;
   outline: solid black;
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
   .container {
     max-width: 480px;
   }
