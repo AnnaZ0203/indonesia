@@ -10,7 +10,17 @@
 }
 
 .indonesia-title {
-    font-family: "Roboto",sans-serif;
+    margin-left: 70px;
+  font-family: "Roboto",sans-serif;
+font-weight: 900;
+font-size: 58.15px;
+line-height: 63px;
+letter-spacing: 0%;
+text-transform: uppercase;
+color: white;
+margin-bottom: 8px;
+   @media screen and (min-width: 1314px){
+           font-family: "Roboto",sans-serif;
 font-weight: 900;
 font-size: 120px;
 line-height: 130px;
@@ -19,9 +29,28 @@ text-transform: uppercase;
 margin-bottom: 21px;
 color: white;
 
+    }
+
 }
 .indonesia-btn {
+    margin-left: 70px;
     margin-bottom: 241px;
+font-family: "DM Sans",sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+padding: 21px 90px;
+background-color: #DD2242;
+border-radius:107px;
+border: none;
+color: white;
+margin-bottom: 54px;
+
+   @media screen and (min-width: 1314px){
+      margin-bottom: 241px;
     font-family: "DM Sans";
 font-weight: 700;
 font-size: 20px;
@@ -34,16 +63,30 @@ background-color: #DD2242;
 border-radius: 211px;
 border: none;
 color: white;
-
+    }
 
 }
 .indonesia-list {
-    background-color: #0000009d;
+    
+    display: flex;
+    flex-direction: column;
+margin-left: 90px;
+
+       @media screen and (min-width: 1314px){
+        background-color: #0000009d;
     display: flex;
     justify-content: center;
+    flex-direction: row;
+    }
     
 }
+.indonesia-wrap{
+background-color: #0000009a;
+background-position: center;
+width: 100%;
+}
 .indonesia-item {
+   
     margin-right: 190px;
     margin-bottom: 49px;
 
