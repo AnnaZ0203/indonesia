@@ -24,7 +24,6 @@ p, body {
 
 img {
   display: inline-block;
-  width: 100%;
   height: auto;
 }
 
@@ -325,12 +324,12 @@ img {
   background-image: url(../../img/explorebackground.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 2271px;
 }
 
 .explore-img {
-  display: block;
   width: 100%;
+  display: block;
+  padding-bottom: 1464px;
 }
 @media screen and (min-width: 1200px) {
   .explore-img {
@@ -351,7 +350,7 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .explore-title {
-    padding-top: 127px;
+    padding-top: 30px;
     font-family: "DM Sans", sans-serif;
     font-weight: 700;
     font-size: 50px;
@@ -365,7 +364,6 @@ img {
 
 .explore-list {
   display: none;
-  margin: 1134px;
 }
 @media screen and (min-width: 1200px) {
   .explore-list {
@@ -400,17 +398,6 @@ img {
   text-align: center;
   color: #E0E0E0;
   margin-bottom: 40px;
-}
-
-@media screen and (min-width: 480px) {
-  .explore-item {
-    display: none;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .explore-item {
-    display: flex;
-  }
 }
 
 .explore-list-two {

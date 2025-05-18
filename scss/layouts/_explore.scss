@@ -2,15 +2,16 @@
 background-image: url(../../img/explorebackground.png);
   background-repeat: no-repeat;
 background-position: center;
-background-size: 2271px;
+
 
 }
 
 
 
 .explore-img{
-   display: block;
   width: 100%;
+  display: block;
+  padding-bottom: 1464px;
      @media screen and (min-width: 1200px){
  display: none;
    }
@@ -28,7 +29,7 @@ vertical-align: middle;
 margin-bottom: 23px;
 padding-top: 20px;
    @media screen and (min-width: 1200px){
-        padding-top: 127px;
+      padding-top: 30px;
   font-family: "DM Sans",sans-serif;
 font-weight: 700;
 font-size: 50px;
@@ -43,7 +44,7 @@ margin-bottom: 44px;
 }
 .explore-list {
   display: none;
-margin: 1134px;
+
      @media screen and (min-width: 1200px){
       display: flex;
   justify-content: space-between;
@@ -80,12 +81,7 @@ margin-bottom: 40px;
 
 }
 .explore-item{
- @media screen and (min-width: 480px){
- display: none;
-   }
-    @media screen and (min-width: 1200px){
- display: flex;
-   }
+
 }
 .explore-list-two {
   display: flex;
