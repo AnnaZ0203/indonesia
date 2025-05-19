@@ -45,7 +45,12 @@ img {
 }
 
 .nav-list-wrap {
-  display: flex;
+  display: none;
+}
+@media screen and (min-width: 1314px) {
+  .nav-list-wrap {
+    display: flex;
+  }
 }
 
 .header-flower {
@@ -75,11 +80,18 @@ img {
 }
 
 .nav-list-svg {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
   position: relative;
-  left: 45px;
+  left: 350px;
+  display: flex;
+}
+@media screen and (min-width: 1314px) {
+  .nav-list-svg {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    left: 45px;
+  }
 }
 
 .nav-item-svg {

@@ -15,8 +15,11 @@ color: white;
 
 }
 .nav-list-wrap{
-    display: flex;
+    display: none;
     
+    @media screen and (min-width: 1314px){
+       display: flex;
+    }
 }
 .header-flower{
     position: relative;
@@ -49,12 +52,17 @@ margin-right: 64px;
 
 
 .nav-list-svg {
-    display: flex;
+   position: relative;
+   left: 350px;
+   display: flex;
+ 
+@media screen and (min-width: 1314px){
+        display: flex;
    align-items: center;
    justify-content:flex-end;
    position: relative;
-left:45px;
- 
+left:45px; 
+    }
  
 
 }
@@ -63,9 +71,7 @@ margin-right: 40px;
 position: relative;
 bottom: 35px;
 }
-.nav-item-svg:last-child{
-  
-}
+
 .header-lypa {
 }
 .header-burgerm {
