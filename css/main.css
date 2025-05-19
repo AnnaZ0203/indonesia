@@ -44,13 +44,23 @@ img {
   color: white;
 }
 
+.nav-list-wrap {
+  display: flex;
+}
+
+.header-flower {
+  position: relative;
+  left: 49px;
+}
+
 .nav-list {
   display: flex;
   align-items: center;
+  margin-right: 64px;
 }
 
-.nav-item:first-child {
-  margin-right: 7px;
+.nav-list:last-child {
+  margin-right: 20px;
 }
 
 .nav-item {
@@ -69,7 +79,7 @@ img {
   align-items: center;
   justify-content: flex-end;
   position: relative;
-  right: 90px;
+  left: 45px;
 }
 
 .nav-item-svg {
@@ -778,7 +788,7 @@ img {
 .video-wrap {
   display: flex;
   flex-direction: column;
-  margin-left: 80px;
+  margin-left: 60px;
 }
 @media screen and (min-width: 1314px) {
   .video-wrap {
@@ -813,9 +823,14 @@ img {
 }
 
 .parent {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  padding-left: 60px;
+  margin-left: 80px;
+}
+@media screen and (min-width: 1314px) {
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 60px;
+  }
 }
 
 .div1 {
@@ -842,49 +857,147 @@ img {
   grid-area: 2/3/3/4;
 }
 
-.parent-wrap {
-  display: flex;
-  flex-direction: column-reverse;
+@media screen and (min-width: 1314px) {
+  .parent-wrap {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+.girls {
+  width: 151px;
+  height: 217px;
+}
+@media screen and (min-width: 1314px) {
+  .girls {
+    width: 370px;
+    height: 530px;
+  }
 }
 
 .beach-img {
-  transform: translateY(-200px);
+  width: 151px;
+  height: 86px;
+}
+@media screen and (min-width: 1314px) {
+  .beach-img {
+    transform: translateY(-200px);
+    width: 370px;
+    height: 210px;
+  }
 }
 
 .smoke-img {
-  transform: translateY(-350px);
+  width: 150px;
+  height: 153px;
+  transform: translateY(-465px);
+  margin-left: 170px;
+}
+@media screen and (min-width: 1314px) {
+  .smoke-img {
+    transform: translateY(-350px);
+    width: 370px;
+    height: 370px;
+    margin-left: 0;
+  }
 }
 
 .mountain-img {
-  transform: translateY(22px);
+  width: 151px;
+  height: 217px;
+  transform: translateY(-220px);
+  margin-left: 170px;
+}
+@media screen and (min-width: 1314px) {
+  .mountain-img {
+    width: 370px;
+    height: 530px;
+    transform: translateY(22px);
+    margin-left: 0;
+  }
 }
 
-.firstphotoeswrap {
-  margin-left: 20px;
+@media screen and (min-width: 1314px) {
+  .firstphotoeswrap {
+    margin-left: 20px;
+  }
+}
+
+.volcano {
+  width: 151px;
+  height: 86px;
+  transform: translateY(-535px);
+  margin-left: 170px;
+}
+@media screen and (min-width: 1314px) {
+  .volcano {
+    width: 370px;
+    height: 210px;
+    transform: translateY(0px);
+    margin-left: 0px;
+  }
+}
+
+.chel {
+  width: 150px;
+  height: 153px;
+  transform: translateY(-310px);
+}
+@media screen and (min-width: 1314px) {
+  .chel {
+    width: 370px;
+    height: 370px;
+    margin-left: 0;
+    transform: translateY(0px);
+  }
 }
 
 .gallery-title {
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
-  font-size: 60px;
-  line-height: 150%;
+  font-size: 70px;
+  line-height: 76px;
   letter-spacing: 0%;
   text-align: center;
   vertical-align: middle;
   color: #010A20;
-  padding-top: 177px;
-  margin-bottom: 41px;
+  padding-top: 100px;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 1314px) {
+  .gallery-title {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 177px;
+    margin-bottom: 41px;
+  }
 }
 
 .gallery-text {
-  font-family: "DM Sans" sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 28px;
-  letter-spacing: 1%;
+  font-size: 30px;
+  line-height: 46px;
+  letter-spacing: 0.5px;
   text-align: center;
-  margin-bottom: 71px;
   color: #6F7787;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 1314px) {
+  .gallery-text {
+    font-family: "DM Sans" sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 1%;
+    text-align: center;
+    margin-bottom: 71px;
+  }
 }
 
 .getting {

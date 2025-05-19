@@ -4,9 +4,12 @@
 }
 
 .parent {
-display: grid;
+margin-left: 80px;
+@media screen and (min-width: 1314px){
+       display: grid;
 grid-template-columns: repeat(3, 1fr);
 padding-left: 60px;
+    }
 
 }
 
@@ -18,38 +21,147 @@ padding-left: 60px;
 .div6 { grid-area: 2 / 3 / 3 / 4; }
 
 .parent-wrap{
-    display: flex;
-    flex-direction: column-reverse;
+  
+    @media screen and (min-width: 1314px){
+       display: flex;
+    flex-direction: column-reverse; 
+    }
 }
+
+
+
+
+.girls {
+    width: 151px;
+height: 217px;
+
+   @media screen and (min-width: 1314px){
+      width: 370px;
+height: 530px;
+
+
+
+    }
+
+
+}
+
 .beach-img{
-transform:translateY(-200px);
+    width: 151px;
+height: 86px;
+
+
+    @media screen and (min-width: 1314px){
+        transform:translateY(-200px);
+        width: 370px;
+height: 210px;
+
+
+    }
+
 }
 .smoke-img{
-transform:translateY(-350px);
+
+    width: 150px;
+height: 153px;
+transform: translateY(-465px);
+margin-left: 170px;
+    @media screen and (min-width: 1314px){
+       transform:translateY(-350px);
+       width: 370px;
+height: 370px;
+margin-left: 0;
+
+    }
+
 }
+
 .mountain-img{
-  transform:translateY(22px);
+    width: 151px;
+height: 217px;
+transform: translateY(-220px);
+  margin-left: 170px;
+    @media screen and (min-width: 1314px){
+width: 370px;
+height: 530px;
+       transform:translateY(22px); 
+       margin-left: 0;
+    }
 }
+
+
 .firstphotoeswrap{
-    margin-left: 20px;
+    @media screen and (min-width: 1314px){
+          margin-left: 20px;
+    }
+ 
+}
+
+.volcano {
+width: 151px;
+height: 86px;
+transform: translateY(-535px);
+margin-left: 170px;
+
+ @media screen and (min-width: 1314px){
+         width: 370px;
+height: 210px;
+transform: translateY(0px);
+margin-left: 0px;
+
+    }
+}
+.chel{
+    width: 150px;
+height: 153px;
+transform: translateY(-310px);
+  @media screen and (min-width: 1314px){
+        width: 370px;
+height: 370px;
+margin-left: 0;
+transform: translateY(-0px);
+    }  
+
 }
 
 
 .gallery-title {
-    font-family: "DM Sans",sans-serif;
+ font-family: "DM Sans",sans-serif;
+font-weight: 700;
+font-size: 70px;
+line-height: 76px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+color:  #010A20;
+padding-top: 100px;
+margin-bottom: 20px;
+
+@media screen and (min-width: 1314px){
+          font-family: "DM Sans",sans-serif;
 font-weight: 700;
 font-size: 60px;
 line-height: 150%;
 letter-spacing: 0%;
 text-align: center;
 vertical-align: middle;
-color:  #010A20;
+
 padding-top: 177px;
 margin-bottom: 41px;
 
+    }
 
 }
 .gallery-text {
+font-family: "DM Sans",sans-serif;
+font-weight: 400;
+font-size: 30px;
+line-height: 46px;
+letter-spacing: 0.5px;
+text-align:center ;
+color:  #6F7787;
+margin-bottom: 30px;
+@media screen and (min-width: 1314px){
     font-family: "DM Sans"sans-serif;
 font-weight: 400;
 font-size: 18px;
@@ -57,6 +169,5 @@ line-height: 28px;
 letter-spacing: 1%;
 text-align: center;
 margin-bottom: 71px;
-color:  #6F7787;
-
+    }
 }
