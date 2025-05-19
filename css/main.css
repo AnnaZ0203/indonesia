@@ -651,7 +651,7 @@ img {
   margin-bottom: 40px;
   width: 410px;
   height: 210px;
-  margin-left: 20px;
+  margin-left: 40px;
 }
 @media screen and (min-width: 1314px) {
   .video-img {
@@ -678,20 +678,46 @@ img {
 .item-title {
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 150%;
   letter-spacing: 0%;
+  text-align: center;
   color: #FFFFFF;
-  margin-bottom: 15px;
+  text-align: center;
+  margin-bottom: 19px;
+}
+@media screen and (min-width: 1314px) {
+  .item-title {
+    text-align: left;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+  }
 }
 
 .item-text {
   font-family: "DM Sans", sans-serif;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 16px;
+  line-height: 24px;
   letter-spacing: 0.5px;
-  color: #FFFFFF;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.833);
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 1314px) {
+  .item-text {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+  }
 }
 
 @media screen and (min-width: 1314px) {
@@ -701,26 +727,52 @@ img {
 }
 
 .video-item-two {
-  margin-right: 41px;
+  margin-right: 20px;
 }
 
 .item-title-two {
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 150%;
   letter-spacing: 0%;
+  text-align: center;
   color: #FFFFFF;
-  margin-bottom: 15px;
+  text-align: center;
+  margin-bottom: 19px;
+}
+@media screen and (min-width: 1314px) {
+  .item-title-two {
+    text-align: left;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+  }
 }
 
 .item-text-two {
   font-family: "DM Sans", sans-serif;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 16px;
+  line-height: 24px;
   letter-spacing: 0.5px;
-  color: #FFFFFF;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.833);
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 1314px) {
+  .item-text-two {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+  }
 }
 
 .video-wrap {
@@ -733,6 +785,30 @@ img {
     display: flex;
     flex-direction: row;
     padding-bottom: 255px;
+  }
+}
+
+.item-img {
+  width: 314px;
+  height: 176px;
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 1314px) {
+  .item-img {
+    width: 233;
+    height: 151px;
+  }
+}
+
+.item-img-two {
+  width: 314px;
+  height: 176px;
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 1314px) {
+  .item-img-two {
+    width: 233;
+    height: 151px;
   }
 }
 
