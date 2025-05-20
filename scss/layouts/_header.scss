@@ -80,8 +80,10 @@ bottom: 35px;
 
 
 .mob-open{
+  position: relative;
+  left: 409px;
+ bottom: 63px;
     display: block;
-    margin-left: 0;
     border: none;
   background-color: #00000033;
     background-color: transparent;
@@ -91,10 +93,7 @@ bottom: 35px;
 
 }
 .mob-menu{
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+ color: black;
   background-color: #27272b16;
  
 }
@@ -117,15 +116,15 @@ bottom: 35px;
   left: 50%;
   width: 528px;
   height: 581px;
-  background-color: #ffffff;
+  background-color: white;
   transform: translate(-50%, -50%);
- padding-left: 25px;
+ padding-left: 70px;
 }
 
 
 .mob-list {
-margin-bottom: 220px;
-margin-top: 20px;
+margin-bottom: 100px;
+
 
 }
 .mob-item {
@@ -134,17 +133,18 @@ font-weight: 500;
 font-size: 40px;
 line-height: 100%;
 letter-spacing: 2%;
-text-align: left;
-color: #212121;
 margin-bottom: 30px;
+position: relative;
+bottom: 20px;
 }
 .mob-item:hover{
-color: #2196f3;
+color: #a3876bed;
   transition-duration: 250ms;
   transition-delay: 2ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
 
 .mobnav-list {
+
 }
 .mobnav-item {
   font-family: "Roboto",sans-serif;
@@ -152,12 +152,12 @@ font-weight: 500;
 font-size: 24px;
 line-height: 100%;
 letter-spacing: 2%;
-color: #757575;
+color: #785a3c;
 margin-bottom: 40px;
 
 }
 .mobnav-item:hover{
-  color: #2196f3;
+  color: #785a3c;
   transition-duration: 250ms;
   transition-delay: 2ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
@@ -172,18 +172,21 @@ font-weight: 500;
 font-size: 18px;
 line-height: 22px;
 letter-spacing: 2%;
-color: #2196F3;
+color: #765c41ed;
 margin-right: 20px;
 
 }
 
 
 .mob-close{
-  background-color: black;
+padding: 30px;
+border-radius: 50px;
     width: 30px;
   height: 30px;
 border: none;
-  position: relative;
-  left: 450px;
-  bottom:550px;
+color: black;
+margin-top: 50px;
+margin-left: 210px;
+background-color: #785a3c99;
+
 }
