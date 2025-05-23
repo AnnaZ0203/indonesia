@@ -789,7 +789,7 @@ img {
   margin-bottom: 40px;
   width: 410px;
   height: 210px;
-  margin-left: 40px;
+  margin-left: 25px;
 }
 @media screen and (min-width: 1314px) {
   .video-img {
@@ -1130,6 +1130,7 @@ img {
 
 .getting {
   background-color: #DCE8F2;
+  padding-bottom: 50px;
 }
 
 .getting-itm-wrap {
@@ -1137,7 +1138,20 @@ img {
 }
 
 .getting-item-img {
-  margin-right: 45px;
+  width: 485px;
+  z-index: 1;
+  position: relative;
+  right: 77px;
+  margin-top: 32px;
+}
+@media screen and (min-width: 1314px) {
+  .getting-item-img {
+    margin-right: 45px;
+    width: 249px;
+    height: 165px;
+    right: 0;
+    margin-top: 10px;
+  }
 }
 
 .getting-item::before {
@@ -1149,8 +1163,26 @@ img {
   top: 0;
   left: 0;
   z-index: 1;
-  width: 50px;
-  height: 50px;
+  width: 90px;
+  height: 90px;
+  position: relative;
+  left: 124px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+@media screen and (min-width: 1314px) {
+  .getting-item::before {
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    transform: translateX(-74px);
+    position: relative;
+    top: 65px;
+  }
 }
 
 .getting-title {
@@ -1161,31 +1193,104 @@ img {
   letter-spacing: 0%;
   margin-bottom: 44px;
   padding-top: 111px;
-  margin-left: 100px;
+  margin-left: 50px;
+}
+@media screen and (min-width: 1314px) {
+  .getting-title {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    margin-bottom: 44px;
+    padding-top: 111px;
+    margin-left: 100px;
+  }
 }
 
 .getting-list {
-  margin-left: 100px;
+  margin-left: 0;
+}
+@media screen and (min-width: 1314px) {
+  .getting-list {
+    margin-left: 100px;
+  }
+}
+
+.getting-item {
+  margin-left: 60px;
+}
+.getting-itm-txt {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 27px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: rgba(21, 20, 57, 0.4);
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 1314px) {
+  .getting-itm-txt {
+    display: none;
+  }
+}
+
+.getting-itm-lnk {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #DD2242;
+  margin-left: 120px;
+}
+@media screen and (min-width: 1314px) {
+  .getting-itm-lnk {
+    display: none;
+  }
 }
 
 .getting-itm-title {
   font-family: "DM Sans", sans-serif;
-  font-weight: 700;
-  font-size: 26.41px;
-  line-height: 41.08px;
-  letter-spacing: 0px;
+  font-weight: 650;
+  font-size: 40px;
+  line-height: 150%;
+  letter-spacing: 0%;
   color: black;
-  margin-bottom: 28px;
+  margin-bottom: 9px;
+}
+@media screen and (min-width: 1314px) {
+  .getting-itm-title {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 26.41px;
+    line-height: 41.08px;
+    letter-spacing: 0px;
+    color: black;
+    margin-bottom: 28px;
+  }
+}
+
+.getting-item-wrptwo {
+  color: white;
 }
 
 .getting-itm-text {
-  font-family: "DM Sans", sans-serif;
-  font-weight: 400;
-  font-size: 23.47px;
-  line-height: 38.15px;
-  letter-spacing: 0px;
-  color: rgba(21, 20, 57, 0.4);
-  margin-bottom: 79px;
+  display: none;
+}
+@media screen and (min-width: 1314px) {
+  .getting-itm-text {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 23.47px;
+    line-height: 38.15px;
+    letter-spacing: 0px;
+    color: rgba(21, 20, 57, 0.4);
+    margin-bottom: 79px;
+    display: flex;
+  }
 }
 
 .getting-itm-text:last-child {
@@ -1193,19 +1298,24 @@ img {
 }
 
 .getting-btn {
-  font-family: "DM Sans";
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 150%;
-  letter-spacing: 0%;
-  text-align: center;
-  color: white;
-  background-color: #DD2242;
-  padding: 18px 56px;
-  border-radius: 122px;
-  margin-left: 110px;
-  margin-bottom: 65px;
-  border: none;
+  display: none;
+}
+@media screen and (min-width: 1314px) {
+  .getting-btn {
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: white;
+    background-color: #DD2242;
+    padding: 18px 56px;
+    border-radius: 122px;
+    margin-left: 110px;
+    margin-bottom: 65px;
+    border: none;
+  }
 }
 
 .navig {
