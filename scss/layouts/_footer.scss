@@ -21,9 +21,10 @@ display: flex;
     display: flex;
     flex-direction: row;
     margin-bottom: 38px;
+    margin-left: 120px;
      @media screen and (min-width: 1314px){
-
-    
+margin-left: 0;
+    margin-bottom: 0;
     }
 }
 
@@ -59,39 +60,81 @@ margin-right: 25px;
   display: flex;
    align-items: center;
    justify-content:flex-end;
-flex-direction: row;
+flex-direction: column;
 padding-top: 20px ;
 
-
  @media screen and (min-width: 1314px){
-  align-items: center;
+position: relative;
+bottom: 30px;
+
    justify-content:flex-end;
    position: relative;
-margin-bottom: 70px;
 flex-direction: row;
-    
     }
 
 }
+
+.wrap-nav{
+     @media screen and (min-width: 1314px){
+ margin-bottom: 30px;   
+ position: relative;
+ right: 20px;
+}
+}
+
+.navgi-wrap{
+    display: flex;
+    flex-direction: row;
+   margin-bottom: 50px;
+   margin-left: 35px;
+ @media screen and (min-width: 1314px){
+
+}
+}
+.wraptwo{
+
+}
 .navig-item-svg {
-margin-right: 22px;
+margin-right: 40px;
+
+ @media screen and (min-width: 1314px){
+
+    margin-right: 22px;
 position: relative;
 bottom:50px;
+    }
+
+
 }
 
 .f-logo{
-    color: #DD2242;
+  
+     color: #DD2242;
+     @media screen and (min-width: 1314px){
+ 
+     color: #DD2242;
+    }
 }
 
 .icon-f{
+
+ @media screen and (min-width: 1314px){
+ 
 width: 24px;
 height: 24px;
+    }
 }
 
 .icon-copy{
-    width: 158px;
+    width: 258px;
+height: 30px;
+margin-left: 35px;
+ @media screen and (min-width: 1314px){
+   width: 158px;
 height: 20px;
 margin-left: 20px;
-
+ position: relative;
+ bottom: 40px;
+    }
 
 }

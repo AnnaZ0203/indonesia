@@ -1345,7 +1345,15 @@ img {
   display: flex;
   flex-direction: row;
   margin-bottom: 38px;
+  margin-left: 120px;
 }
+@media screen and (min-width: 1314px) {
+  .navig-logo-wrap {
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+}
+
 .navig-item {
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
@@ -1375,38 +1383,73 @@ img {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  flex-direction: row;
+  flex-direction: column;
   padding-top: 20px;
 }
 @media screen and (min-width: 1314px) {
   .navig-list-svg {
-    align-items: center;
+    position: relative;
+    bottom: 30px;
     justify-content: flex-end;
     position: relative;
-    margin-bottom: 70px;
     flex-direction: row;
   }
 }
 
+@media screen and (min-width: 1314px) {
+  .wrap-nav {
+    margin-bottom: 30px;
+    position: relative;
+    right: 20px;
+  }
+}
+
+.navgi-wrap {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+  margin-left: 35px;
+}
 .navig-item-svg {
-  margin-right: 22px;
-  position: relative;
-  bottom: 50px;
+  margin-right: 40px;
+}
+@media screen and (min-width: 1314px) {
+  .navig-item-svg {
+    margin-right: 22px;
+    position: relative;
+    bottom: 50px;
+  }
 }
 
 .f-logo {
   color: #DD2242;
 }
+@media screen and (min-width: 1314px) {
+  .f-logo {
+    color: #DD2242;
+  }
+}
 
-.icon-f {
-  width: 24px;
-  height: 24px;
+@media screen and (min-width: 1314px) {
+  .icon-f {
+    width: 24px;
+    height: 24px;
+  }
 }
 
 .icon-copy {
-  width: 158px;
-  height: 20px;
-  margin-left: 20px;
+  width: 258px;
+  height: 30px;
+  margin-left: 35px;
+}
+@media screen and (min-width: 1314px) {
+  .icon-copy {
+    width: 158px;
+    height: 20px;
+    margin-left: 20px;
+    position: relative;
+    bottom: 40px;
+  }
 }
 
 .container {
